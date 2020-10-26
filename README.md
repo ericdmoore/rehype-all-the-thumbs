@@ -1,8 +1,9 @@
 # rehype-all-the-thumbs
 
-> rehype-👍🏻👍🏼👍🏽👍🏾👍🏿
-> a love child of rehypejs and sharp image processing (main plugin)
+> rehype-👍🏻👍🏼👍🏽👍🏾👍🏿 (main plugin)
 
+a love child of `rehypejs` and `sharp` image processing to make thumbnail images of every shape color and size.
+ 
 `rehype-all-the-thumbs` is a unifiedjs plugin that will find images in your DOM, and make thumbnail images automatically.
 
 Ships with defaults so no config is required but offers extensive config options to meet various needs.
