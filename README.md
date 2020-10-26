@@ -1,6 +1,6 @@
 # rehype-all-the-thumbs
 
-> rehype-👍🏻👍🏼👍🏽👍🏾👍🏿 (main plugin)
+> rehype-👍🏿👍🏼👍🏽👍🏻👍🏾 (main plugin)
 
 a love child of `rehypejs` and `sharp` image processing to make thumbnail images of every shape color and size.
  
@@ -26,4 +26,4 @@ Uses Plugins:
 
 So if you are using on of the ...ate plugins and you just want some thumbnails to show up, you should jump up one level and use the main plugin `rehype-all-the-thumbs`
 
-> rehype-👍🏻👍🏼👍🏽👍🏾👍🏿
+> rehype-👍🏿👍🏼👍🏽👍🏻👍🏾 (main plugin)
