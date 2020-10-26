@@ -1,14 +1,11 @@
 # rehype-all-the-thumbs
 
-> rehype-👍🏿👍🏼👍🏽👍🏻👍🏾 (main plugin)
+> rehype-👍🏿👍🏼👍🏽👍🏻👍🏾
 
-a love child of `rehypejs` and `sharp` image processing to make thumbnail images of every shape color and size.
- 
-`rehype-all-the-thumbs` is a unifiedjs plugin that will find images in your DOM, and make thumbnail images automatically.
+`rehype-all-the-thumbs` is a unifiedjs/rehypejs plugin that finds images in your DOM, and makes thumbnail images automatically. It also ships with defaults so you can get started with no config and get reaasonable results, and it also offers extensive config options to meet various needs.
 
-Ships with defaults so no config is required but offers extensive config options to meet various needs.
+![Readme Diagram](pics/Readme-diagram.svg)
 
-`rehype-all-the-thumbs` is made up of other plugins that can be used by other develoeprs if it meets your needs.
 
 `rehype-all-the-thumbs` comes with:
 - a default config
@@ -16,7 +13,11 @@ Ships with defaults so no config is required but offers extensive config options
 - options to set configuration for each node in the DOM individullly
 - options on where to save/emit these images.
 
-Uses Plugins:
+## Behind the Scenes 
+
+`rehype-all-the-thumbs` is actually a unified preset that composes smaller plugins together... and those other plugins are available for develoeprs should you have a need similar to the solution those aim to solve.
+
+The Following are Nominated for Best Supporting Plugins in RehypeAllTheTumbs:
 
 - [rehype-all-the-thumbs-curate](https://github.com/ericdmoore/rehype-all-the-thumbs-curate) (DOM -> data.srcs)
 - [rehype-all-the-thumbs-create](https://github.com/ericdmoore/rehype-all-the-thumbs-create) (data.srcs -> data.newAssets)
@@ -24,6 +25,19 @@ Uses Plugins:
 - [rehype-all-the-thumbs-obviate](https://github.com/ericdmoore/rehype-all-the-thumbs-obviate) (data.newAssets.filter -> data.newAssets)
 - [vfile-newAssets-generate](https://github.com/ericdmoore/vfile-newAssets-generate) (data.newAssets -> Side Effect Funtion to create the file)
 
-So if you are using on of the ...ate plugins and you just want some thumbnails to show up, you should jump up one level and use the main plugin `rehype-all-the-thumbs`
+
+## Clarification
+
+If you are using one of the "...ate" plugins, and you are not making a preset, or developing other plugins, if you "Just  want some thumbnails to show up", you should jump up one level and use the main plugin `rehype-all-the-thumbs`
 
 > rehype-👍🏿👍🏼👍🏽👍🏻👍🏾 (main plugin)
+
+## License
+
+[MIT][license] © [Eric D Moore][author]
+
+<!-- Definitions -->
+
+[license]: LICENSE
+
+[author]: https://im.ericdmoore.com
