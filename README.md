@@ -2,7 +2,7 @@
 
 > rehype-👍🏿👍🏼👍🏽👍🏻👍🏾
 
-`rehype-all-the-thumbs` is a unifiedjs/rehypejs plugin that finds images in your DOM, and makes thumbnail images automatically. It also ships with defaults so you can get started with no config and get reaasonable results, and it also offers extensive config options to meet various needs.
+[`rehype-all-the-thumbs`](https://github.com/ericdmoore/rehype-all-the-thumbs) is a unifiedjs/rehypejs plugin that finds images in your DOM, and makes thumbnail images automatically. It also ships with defaults so you can get started with no config and get reaasonable results, and it also offers extensive config options to meet various needs.
 
 ![Readme Diagram](pics/Readme-diagram.svg)
 
